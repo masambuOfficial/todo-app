@@ -31,7 +31,7 @@ function App() {
   return (
     <div className="flex flex-col h-screen">
       <div className="flex-grow overflow-y-auto p-4 ">
-        <h1 className="text-2xl font-bold mb-4">Task Management Tool</h1>
+        <h1 className="text-2xl font-bold mb-4 md:text-left text-center">Task Management Tool</h1>
         <TaskList tasks={tasks} updateTask={updateTask} deleteTask={deleteTask} />
       </div>
       <div className="fixed bottom-0 left-0 w-full bg-white p-4 border-t">
